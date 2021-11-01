@@ -32,4 +32,9 @@ main{
 
 article img{
    width: 100%;
+}footer{
+    height: 50px;
+    background-color: gray;
 }
+
+
