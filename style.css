@@ -1,3 +1,10 @@
+:root{
+    border: none;
+    padding: none;
+    margin: none;
+    border: none;
+}
+
 body{
     margin: auto;
     
@@ -21,8 +28,12 @@ header{
 a{
     border: solid 2px black;
 }
+footer a {
+    border: none;
+}
 
 main{
+    
     margin: auto;
     min-width: 300px;
     max-width: 600px;
@@ -30,11 +41,35 @@ main{
     border: solid 2px black;
 }
 
-article img{
-   width: 100%;
-}footer{
-    height: 50px;
-    background-color: gray;
+article{
+    display: block;
 }
 
+article img{
+   width: 100%;
+}
 
+#lado{
+    width: 49%;
+    min-width: 250px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+aside{
+    width: 50%;
+    min-width: 250px;
+    display: inline-block;
+    vertical-align: top;
+
+    
+    justify-content: bottom;
+    
+    background-color: blue;
+}
+
+footer{
+    text-align: center;
+    padding-bottom: 20px;
+    background-color: gray;
+}
